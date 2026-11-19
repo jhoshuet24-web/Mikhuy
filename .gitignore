@@ -1,0 +1,60 @@
+
+# --- Sistema operativo ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- IDEs / Editores (comunes a ambos lados) ---
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.history/
+
+# --- Logs genéricos en raíz ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Variables de entorno en raíz (por si acaso) ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Archivos temporales / caché en raíz ---
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# --- Builds genéricos en raíz (por si algún día hay scripts root) ---
+dist/
+build/
+out/
+coverage/
+
+# --- Node (por si añades package.json en raíz / monorepo) ---
+node_modules/
+
+# --- Maven (por si añades wrapper en raíz más adelante) ---
+target/
+
+# --- Python (por si añades scripts en raíz) ---
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+.pytest_cache/
